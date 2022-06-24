@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+.fonts{
+    text-shadow: 1px 2px 2px #0d0d0d;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+.img{
+    max-width:40px;
+    filter:drop-shadow(2px 2px 2px #0d0d0d)
+}
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #30363c;
+}
+.sndbut{
+    font-family: 'Comfortaa',cursive;
+    width:100px;
+    border-radius: 10px;
+    border-color: #3daf63;
+    border-width: 2px;
+    filter: drop-shadow(2px 2px 2px #0d0d0d);
+    text-shadow: 1px 2px 2px #0d0d0d;
+    font-weight: 500;
+    height: 10;
+    font-size: 18px;
+    color:antiquewhite;
+    background-color:#212529;
+}
+.phonebox{
+    text-align: center;
+}
+.phone{
+    border-width: 2px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    filter:drop-shadow(2px 2px 2px #0d0d0d);
+    border-color: antiquewhite;
+    border-radius: 10px;
+    width: 400px;
+    height:20;
+}
+.info{
+    padding: 5%;
+    font-size: 140%;
+    font-weight: 300;
+}
+.navbar{
+    background-color: #1c2340;
+    border-bottom: 3px solid #3daf63;
+    box-shadow:1px 3px 5px #0d0d0d;    
+}
+
+.headings{
+    font-size: 200%;
+    color:#F0DAC5;
+    text-shadow: 2px 2px 2px #0d0d0d;
+    text-align: center;
+    font-weight: 3000;
+}

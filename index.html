@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Whatsapp Any Number!
+        </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+        <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+   />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    
+    <link href="main.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid logo">
+            <a class="navbar-brand headings fonts" ><img src="logo.png" alt="logo" class="img">&nbsp;Whatsapp Any Number!</a>
+            </div>
+        </nav>
+        <p class="info fonts">
+            This service provides you the ability to whatsapp any number without having to save it on your Phone!
+            <br>Please make sure to select the country before entering the number!
+        </p>
+        <br>
+        <br>
+        <div class="phonebox">
+            <form id="login" onsubmit="process(event)">
+                <input id="phone" class="phone" type="tel" name="phone" />
+                &nbsp;
+                <input type="submit" class="sndbut" value="Chat!" onclick="send()">
+              </form>
+        </div>
+    </body>
+    <script src="code.js"></script>
+</html>
