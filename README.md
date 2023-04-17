@@ -6,6 +6,6 @@ but you were uncomfortable with your profile photo and about being shared with t
 
 Here's your solution to that, just visit the url, enter the number on the textbox and select the country of origin of the number to automatically add country code!
 
-##URL
+## URL
 
 https://nav1203.github.io/wpany1/ 
